@@ -52,6 +52,8 @@ runs:
       with:
         node-version: 16
     - run: ls -la /__w/_tool && ls -la /__w/_tool/node
+      shell: bash
+      
     - run: |
         node ${{ github.action_path }}/dist/main.js
       id: terrakube-integration
