@@ -51,7 +51,7 @@ runs:
       uses: actions/setup-node@v3
       with:
         node-version: 16
-    
+    - run: ls -la /__w/_tool && ls -la /__w/_tool/node
     - run: |
         node ${{ github.action_path }}/dist/main.js
       id: terrakube-integration
