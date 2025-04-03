@@ -57,6 +57,7 @@ runs:
         ls -lta /__w/_tool/node/16.20.2/x64/bin/ 
         which node
         whoami
+        pwd
         /__w/_tool/node/16.20.2/x64/bin/node --version
         node --version 
 
