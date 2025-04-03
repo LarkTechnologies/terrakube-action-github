@@ -52,7 +52,7 @@ runs:
       with:
         node-version: 16
         
-    - run: ls /__w/_tool/node/16.20.2/x64/bin/ &&  node --version 
+    - run: ls /__w/_tool/node/16.20.2/x64/bin/ && which node && node --version 
       shell: bash
       
     - id: terrakube-integration
