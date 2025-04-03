@@ -50,10 +50,7 @@ runs:
     - name: Use Node.js 
       uses: actions/setup-node@v3
       with:
-        node-version: 16
-        
-    - run: ls /__w/_tool/node/16.20.2/x64/bin/ && which node && node --version 
-      shell: bash
+        node-version: 16   
       
     - id: terrakube-integration
       shell: bash
