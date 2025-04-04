@@ -51,6 +51,9 @@ runs:
       uses: actions/setup-node@v3
       with:
         node-version: 16
+
+    - name: Delay
+      run: sleep 3000
       
     - id: terrakube-integration
       shell: bash
