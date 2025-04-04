@@ -68,4 +68,4 @@ runs:
         INPUT_GIT_REPOSITORY: ${{  github.repository }}
         INPUT_SHOW_OUTPUT: ${{ inputs.SHOW_OUTPUT }}
         INPUT_GITHUB_TOKEN: ${{ inputs.GITHUB_TOKEN }}
-      run: node ${{ github.action_path }}/dist/main.js
+      run: node ${GITHUB_ACTION_PATH}/dist/main.js
