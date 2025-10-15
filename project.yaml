@@ -4,6 +4,6 @@
 	 domain:
 	   name: PFE
 	   owningTeam: PFE
-	   jira: Platform Engineering
+	   jira: PFE
 	   primaryContact: andre.green@lark.com	
 
